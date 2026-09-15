@@ -1,0 +1,27 @@
+body 
+{
+	font: 12px verdana, arial, helvetica, sans-serif;
+}
+#page
+{
+	margin: auto;
+	width: 500px;
+	text-align: center;
+}
+
+h1 
+{
+	font: 24px "trebuchet ms", verdana, arial, helvetica, sans-serif;
+}
+
+#buttons
+{
+	margin-top: 20px;
+	text-align: center;
+}
+
+
+#flex-main
+{
+	display: flex;
+}
