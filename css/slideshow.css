@@ -25,3 +25,42 @@ h1
 {
 	display: flex;
 }
+
+/* The heading of the timer panel keeps the size the page had before. */
+#timer h2
+{
+	font-size: 1.17em;
+}
+
+/* On a narrow screen the page shrinks to fit, the two columns fold under
+   each other and the photograph never overflows. Nothing changes above
+   500 px, where the page keeps its width. */
+#page
+{
+	width: auto;
+	max-width: 500px;
+}
+
+#flex-main
+{
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+#slideImage
+{
+	max-width: 100%;
+	height: auto;
+}
+
+/* Text for screen readers only: the speed list has a name without a visible
+   label taking room next to it. */
+.visually-hidden
+{
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
+	clip: rect(0 0 0 0);
+	white-space: nowrap;
+}

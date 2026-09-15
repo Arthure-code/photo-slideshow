@@ -3,25 +3,28 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="A photo slideshow with a manual next button and an automatic mode at three speeds, driven by setInterval.">
+	<link rel="icon" href="data:,">
 	<title>Holidays 2021</title>
-	<link rel="stylesheet" href="css/slideshow.css" />
+	<link rel="stylesheet" href="css/slideshow.css">
 	<script defer src="js/slideshow.js"></script>
 </head>
 <body>
-	<div id="page">
+	<main id="page">
 		<h1>Holidays 2021</h1>
 		<div id="flex-main">
 
 			<div id="slideshow">
-				<img id="slideImage" src="images/slide0.jpg" alt="The boat" width="320" height="240" />
+				<img id="slideImage" src="images/slide0.jpg" alt="The boat" width="320" height="240">
 				<div id="buttons">
 					<button type="button" id="btnNext">Next</button>
 				</div>
 			</div>
 
 			<div id="timer">
-				<h3>Timer controls</h3>
+				<h2>Timer controls</h2>
 				<button type="button" id="btnOnOff">Auto mode</button>
+				<label for="delay" class="visually-hidden">Speed</label>
 				<select name="delay" id="delay">
 					<option value="fast">fast</option>
 					<option value="medium">medium</option>
@@ -30,6 +33,6 @@
 			</div>
 
 		</div>
-	</div>
+	</main>
 </body>
 </html>
